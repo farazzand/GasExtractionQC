@@ -1,0 +1,44 @@
+rules:
+  - id: "RULE_001"
+    name: "Gas Line Blockage"
+    description: "Blockage in gas line causing pressure buildup"
+    conditions:
+      - parameter: "pgasline"
+        trend: "increasing"
+        threshold_breach: true
+      - parameter: "ppump"
+        trend: "decreasing"
+        threshold_breach: true
+    problem_category: "blockage"
+    problem_description: "Blockage in gas line"
+    solutions:
+      - id: "SOL_001_1"
+        action: "Check and clean gas line filter"
+        priority: 1
+        estimated_time_minutes: 10
+      - id: "SOL_001_2"
+        action: "Inspect valve V-23 for obstruction"
+        priority: 2
+        estimated_time_minutes: 15
+    base_confidence: 0.85
+    historical_success_rate: 0.90
+
+  - id: "RULE_002"
+    name: "Pump Performance Issue"
+    description: "Pump not delivering required pressure or flow"
+    conditions:
+      - parameter: "ppump"
+        trend: "decreasing"
+        threshold_breach: true
+      - parameter: "qpump"
+        trend: "decreasing"
+        threshold_breach: true
+    problem_category: "pump_malfunction"
+    problem_description: "Pump performance degradation"
+    solutions:
+      - id: "SOL_002_1"
+        action: "Check pump seals and bearings"
+        priority: 1
+        estimated_time_minutes: 20
+    base_confidence: 0.75
+    historical_success_rate: 0.80

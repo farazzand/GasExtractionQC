@@ -1,0 +1,31 @@
+parameters:
+  mud_level:
+    display_name: Mud Level
+    min: 0
+    max: 2
+    unit: ''
+    warning_margin: 0.15
+  tdegasser:
+    display_name: T Degasser
+    min: 80
+    max: 110
+    unit: ''
+    warning_margin: 0.1
+  qmud:
+    display_name: Q Mud
+    min: 250
+    max: 350
+    unit: ''
+    warning_margin: 0.1
+  pgasline:
+    display_name: P Gas Line
+    min: 250
+    max: 310
+    unit: ''
+    warning_margin: 0.1
+  qpump:
+    display_name: Q Pump
+    min: 400
+    max: 580
+    unit: ''
+    warning_margin: 0.1

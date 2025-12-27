@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y1fcSPDZtQQ=",
+  "dgSpecHash": "eIGw03NMCmk=",
   "success": true,
   "projectFilePath": "E:\\GitHub\\GasExtractionQC\\GasExtractionQC\\GasExtractionQC.csproj",
   "expectedPackageFiles": [
@@ -8,11 +8,8 @@
     "C:\\Users\\faraz\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\faraz\\.nuget\\packages\\serilog.sinks.console\\5.0.1\\serilog.sinks.console.5.0.1.nupkg.sha512",
     "C:\\Users\\faraz\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
-    "C:\\Users\\faraz\\.nuget\\packages\\yamldotnet\\15.1.0\\yamldotnet.15.1.0.nupkg.sha512",
-    "C:\\Users\\faraz\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
-    "C:\\Users\\faraz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
-    "C:\\Users\\faraz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
-    "C:\\Users\\faraz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
+    "C:\\Users\\faraz\\.nuget\\packages\\system.windows.forms.datavisualization\\1.0.0-prerelease.20110.1\\system.windows.forms.datavisualization.1.0.0-prerelease.20110.1.nupkg.sha512",
+    "C:\\Users\\faraz\\.nuget\\packages\\yamldotnet\\15.1.0\\yamldotnet.15.1.0.nupkg.sha512"
   ],
   "logs": []
 }

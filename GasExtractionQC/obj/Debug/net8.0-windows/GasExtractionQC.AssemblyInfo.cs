@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GasExtractionQC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24ccca79e7ef1ea7fa0bf4c1c8b2ca1e61cc3ec8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa594e9c182bbcb9efebb0e6138624defa295602")]
 [assembly: System.Reflection.AssemblyProductAttribute("GasExtractionQC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GasExtractionQC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
